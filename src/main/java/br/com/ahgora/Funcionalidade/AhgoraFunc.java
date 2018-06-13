@@ -19,4 +19,8 @@ public class AhgoraFunc {
 	public void clicarNoEntrar(WebDriver driver){
 		ahgoraPO.entrar(driver).click();
 	}
+	
+	public void acessarEspelhoDePonto(WebDriver driver){
+		ahgoraPO.espelhoDePonto(driver).click();
+	}
 }

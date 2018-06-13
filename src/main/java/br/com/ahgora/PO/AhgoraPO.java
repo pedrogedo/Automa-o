@@ -20,4 +20,9 @@ public class AhgoraPO {
 		WebElement entrar = driver.findElement(By.xpath(".//button[contains(text(),'Entrar')]"));
 		return entrar;
 	}
+	
+	public WebElement espelhoDePonto(WebDriver driver){
+		WebElement espelhoDePonto = driver.findElement(By.xpath(".//a[@id='espelho_ponto']"));
+		return espelhoDePonto;
+	}
 }

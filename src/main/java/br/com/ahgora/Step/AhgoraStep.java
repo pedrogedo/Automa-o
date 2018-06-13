@@ -18,6 +18,7 @@ public class AhgoraStep {
 		ahgoraFunc.digitarMatricula(driver);
 		ahgoraFunc.digitarSenha(driver);
 		ahgoraFunc.clicarNoEntrar(driver);
+		ahgoraFunc.acessarEspelhoDePonto(driver);
 	}
 }
 
